@@ -1,0 +1,6 @@
+{
+	"name": "appvm786Runtime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

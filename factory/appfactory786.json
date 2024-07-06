@@ -1,0 +1,9 @@
+{
+	"name": "appfactory786",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0566602-9fb1-47d1-8930-d2e03922e8c3",
+		"tenantId": "22616ae1-1ae7-44ae-a689-a0c46cc54ad3"
+	}
+}
