@@ -1,0 +1,19 @@
+{
+	"name": "stagingoutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mmdatalake786_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "stagingoutput"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

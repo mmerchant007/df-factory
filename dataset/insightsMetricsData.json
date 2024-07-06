@@ -1,0 +1,20 @@
+{
+	"name": "insightsMetricsData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mmdatalake786_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "resourceId=/SUBSCRIPTIONS/E17F016F-DCF3-4956-8287-8B497B0AB6DA/RESOURCEGROUPS/APP-GRP/PROVIDERS/MICROSOFT.WEB/SITES/WEBAPP0786",
+				"fileSystem": "insights-metrics-pt1m"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
